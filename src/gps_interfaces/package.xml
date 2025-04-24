@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gps_interfaces</name>
+  <version>0.0.1</version>
+  <description>ROS Driver for GNSS Puck</description>
+  <maintainer email="ramkumar.g@northeastern.edu">rgautham20</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <!-- Dependencies for building the package -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- Dependencies for running the package -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- Declare that this package is a member of the rosidl_interface_packages group -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

@@ -1,0 +1,32 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 127524553170
+  starting_time:
+    nanoseconds_since_epoch: 1729636347571434053
+  message_count: 5562
+  topics_with_message_count:
+    - topic_metadata:
+        name: /gps
+        type: gps_interfaces/msg/GPSmsg
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 460
+    - topic_metadata:
+        name: /imu
+        type: imu_interfaces/msg/IMUmsg
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 5102
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - data_going_in_circles.bag_0.db3
+  files:
+    - path: data_going_in_circles.bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1729636347571434053
+      duration:
+        nanoseconds: 127524553170
+      message_count: 5562
